@@ -1,7 +1,7 @@
 
 
 body {
-  background: #ffffff;
+  background: rgba(1,21,83,0.7);
   color: #898989;
   font-family: 'Poppins', helvetica;
   font-size: 15px;
@@ -154,6 +154,7 @@ p {
 }
 .mobile-tag{
     display: none;
+    color: white;
 }
 @media only screen and (max-width: 600px) {
   .mobile-tag {
@@ -265,29 +266,16 @@ nav{
 .contact-details li {
   padding-bottom: 10px;
 }
-
-#contact input, #contact textarea {
-  width: 100%;
+.topic-text {
+    color: white;
+}
+.contact-contact {
+    color: white;
 }
 
-
-#contact  #sendmessage {
-  color: #18d26e;
-  border: 1px solid #18d26e;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin: 15px;
-}
-
-#contact .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
+/*-----------------------------------------------------------------------------------*/
+/*carrousel                                                                          */
+/*-----------------------------------------------------------------------------------*/
 
 /*-----------------------------------------------------------------------------------*/
 /*  Footer
